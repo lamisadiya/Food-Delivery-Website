@@ -495,7 +495,7 @@ footer {
 }
 
 .footer-bottom p {
-    /*margin-right: auto;*/
+    
     margin-left: 230px;
 }
 
@@ -510,5 +510,139 @@ footer {
 
 .footer-bottom li {
     margin: 0 20px;
+}
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    
+    .hero {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .hero .content {
+        margin-bottom: 30px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero .input-group {
+        flex-direction: column;
+    }
+
+    .hero input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .hero .order-now {
+        width: 100%;
+    }
+
+    .features h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .outer-container {
+        align-items: flex-start;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .deals-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deals-section p {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .testimonial-slider h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-slider {
+        padding: 20px;
+    }
+
+    .testimonial {
+        margin-bottom: 30px;
+    }
+
+    .testimonial .feedback {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .navigation {
+        margin-top: 1rem;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+
+    .newsletter-section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .subscription-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .subscription-form input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscription-form button {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+    .app-links {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .footer-bottom p {
+        margin-left: 0;
+    }
+
+    .footer-bottom ul {
+        margin-left: 0;
+    }
 }
 
