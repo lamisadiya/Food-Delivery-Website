@@ -1,4 +1,4 @@
-/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 body {
     font-family: 'Arial', sans-serif, 'Inter' ;
     margin: 0;
@@ -80,11 +80,11 @@ nav a {
     color: #666;
     margin: 20px 0;
     font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: -0.01em;
-text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
 
 }
 
@@ -113,22 +113,23 @@ text-align: left;
 
 .hero .store-buttons a {
     display: inline-block;
+    size: auto;
     margin: 10px 10px 0 0;
 }
 
 .hero .store-buttons img {
-    height: 40px;
+    height: 60px;
 }
 
 .hero-image img {
-    /*height: 300px;*/
+    
     border-radius: 20px;
     width:1,264px;
-height:478px;
-top: 221px;
-left: 168px;
-gap: 109px;
-opacity: 0px;
+    height:478px;
+    top: 221px;
+    left: 168px;
+    gap: 109px;
+    opacity: 0px;
 
 }
 
@@ -136,20 +137,20 @@ opacity: 0px;
     padding: 50px;
     text-align: center;
     font-family: Inter;
-font-size: 46px;
-font-weight: 600;
-line-height: 58px;
-letter-spacing: -0.01em;
-text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.01em;
+    text-align: center;
 
 }
 .features p{
     text-align: center;
     font-family: Inter;
-font-size: 25px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: -0.01em;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.01em;
 
 
 }
@@ -172,13 +173,13 @@ letter-spacing: -0.01em;
     
     margin-bottom: 30px;
     font-family: Inter;
-font-size: 46px;
-font-weight: 600;
-line-height: 46px;
-letter-spacing: 0.005em;
-text-align: center;
-color: rgba(46, 44, 73, 1);
-;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: rgba(46, 44, 73, 1);
+
  
 }
 .steps {
@@ -205,22 +206,22 @@ color: rgba(46, 44, 73, 1);
     font-weight: 400;
 }
 .step-number {
-position: absolute;
-top: -20px;
-left: 10%;
-transform: translateX(-50%);
-color: #ff4500;
-font-weight: bold;
-font-size: 24px;
-background-color: #ffffff;
-border-radius: 50%;
-padding: 10px;
-width: 57px; /* Adjusted width */
-height: 53px; /* Adjusted height */
-line-height: 53px; /* Centered text vertically */
-text-align: center;
-font-family: Inter; /* Updated font family */
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    transform: translateX(-50%);
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    width: 57px; 
+    height: 53px; 
+    line-height: 53px; 
+    text-align: center;
+    font-family: Inter; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 .food-items {
     display: flex;
@@ -234,8 +235,8 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box-shadow */
 }
 
 .food-item img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 
 .food-item p {
@@ -253,8 +254,9 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box-shadow */
 }
 
 .deals-section p {
+    margin-top: -5rem;
     font-size: 18px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .highlight {
@@ -281,10 +283,10 @@ blockquote {
 
 .paragraph{
     font-family: Inter;
-font-size: 12px;
-font-weight: 400;
-line-height: 26px;
-text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
 
 }
 .testimonial-slider {
@@ -306,7 +308,7 @@ text-align: center;
     background-color: #f4f4f4;
 }
 .testimonial-slider h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 1rem;
     color: #333;
@@ -318,17 +320,12 @@ text-align: center;
 
 
 .feedback {
-/*    font-size: 18px;
-    color: #333;
-    margin: 2rem 0;
-    padding: 0 2rem;
-*/
-font-family: Inter;
-font-size: 20px;
-font-style: italic;
-font-weight: 500;
-line-height: 34px;
-text-align: center;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
 
 }
 
@@ -400,7 +397,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0; /* Ensures no gap between input and button */
+    gap: 0; 
 }
 
 .subscription-form input[type="email"] {
@@ -457,6 +454,9 @@ footer {
     flex: 2;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: -150px;
+
 }
 
 .app-links img {
@@ -489,12 +489,14 @@ footer {
 
 .footer-bottom {
     text-align: center;
+    display: flex;
     padding: 10px 0;
     border-top: 1px solid #444;
 }
 
 .footer-bottom p {
-    margin: 10px 0;
+    /*margin-right: auto;*/
+    margin-left: 230px;
 }
 
 .footer-bottom ul {
@@ -503,9 +505,10 @@ footer {
     margin: 10px 0;
     display: flex;
     justify-content: center;
+    margin-left: 570px ;
 }
 
 .footer-bottom li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
